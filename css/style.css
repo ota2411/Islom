@@ -169,3 +169,12 @@ select option {
 input[type='file'] {
   opacity: 0;
 }
+
+.info-select {
+  width: 270px;
+  background: url(../img/arrow-down.png) no-repeat center right 20px;
+}
+
+.info-click {
+  background: url(../img/plus.png) no-repeat center right 20px;
+}
