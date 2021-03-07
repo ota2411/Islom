@@ -10,7 +10,14 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-
+	<style>
+		.main-inputs {
+			flex-direction: column;
+		}
+		.main-inputs-form {
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
   <main class="main">
@@ -27,7 +34,7 @@
 			</div>
 			<div class="row main-inputs justify-content-center">
           <p style="color: #FFFFFF; text-align: center;">Check your email. <br> Follow the link to restore your password</p>
-          <form action="login.html">
+          <form class="main-inputs-form" action="login.html">
             <button type="submit"  class="btn btn-primary main-inputs-btn">
               Go to the login page
             </button>

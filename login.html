@@ -10,6 +10,14 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+	<style>
+		.main-inputs-form {
+			text-align: center;
+		}
+		.main-inputs-button {
+			margin-bottom: 1rem;
+		}
+	</style>
 </head>
 <body>
   <main class="main">
@@ -25,15 +33,15 @@
 				</div>
 			</div>
 			<div class="row main-inputs justify-content-center">
-				<form id="login">
+				<form class="main-inputs-form" id="login">
 					
 					<input type="text" class="main-input main-input-mini info-input login-space" placeholder="Username or Email">
 					<input type="text" class="main-input main-input-mini info-input login-space" placeholder="Password">
 					<a href="reset_password.html"><p style="color: #B48888;">Forgot your password?</p> </a> 
 					<p style="color: #FFFFFF;">Restore</p>
 					
-					<div class="justify-content-end justify-content-center login-space">
-						<button type="submit" class="btn btn-primary main-inputs-btn">Log in</button>
+					<div class="login-space">
+						<button type="submit" class="btn btn-primary main-inputs-btn main-inputs-button">Log in</button>
 						<p style="color: #B48888; text-align: center;">OR</p>
 						<button type="submit" class="btn btn-primary main-inputs-btn">Sign up</button>
 					</div>
